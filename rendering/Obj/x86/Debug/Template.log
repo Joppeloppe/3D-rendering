@@ -1,0 +1,141 @@
+﻿Build started 02/05/2016 11:22:50.
+     1>Project "D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\Template.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\DirectXTK\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/" /Fd"D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Geometry.cpp InputHandler.cpp mesh.cpp Main.cpp vec\mat.cpp vec\vec.cpp
+         vec.cpp
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         mat.cpp
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(253): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(246) : while compiling class template member function 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)'
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.cpp(24) : see reference to function template instantiation 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)' being compiled
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(531) : see reference to class template instantiation 'linalg::vec3<float>' being compiled
+         Main.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\main.cpp(200): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\main.cpp(201): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\main.cpp(202): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.h(363): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.h(360) : while compiling class template member function 'linalg::mat4<float> linalg::mat4<float>::inverse(void) const'
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\camera.h(105) : see reference to function template instantiation 'linalg::mat4<float> linalg::mat4<float>::inverse(void) const' being compiled
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.h(660) : see reference to class template instantiation 'linalg::mat4<float>' being compiled
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.h(526): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\mat.h(523) : while compiling class template member function 'linalg::mat4<float> linalg::mat4<float>::rotation(const T &,const T &,const T &,const T &)'
+                 with
+                 [
+                     T=float
+                 ]
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\main.cpp(141) : see reference to function template instantiation 'linalg::mat4<float> linalg::mat4<float>::rotation(const T &,const T &,const T &,const T &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         mesh.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(32): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(46): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(55): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(73): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(77): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(81): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(29): warning C4101: 'str1' : unreferenced local variable
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(119): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(125): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(134): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(140): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(164): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(170): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(176): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(186): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(192): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(208): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(218): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(224): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(234): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(251): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.cpp(252): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         InputHandler.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\inputhandler.cpp(181): warning C4244: 'return' : conversion from 'LONG' to 'float', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\inputhandler.cpp(185): warning C4244: 'return' : conversion from 'LONG' to 'float', possible loss of data
+         Geometry.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(79): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(92): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(226): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(239): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(308): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\geometry.cpp(321): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>d:\skola\spelutveckling\3d\rendering\renderinganton\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 d:\skola\spelutveckling\3d\rendering\renderinganton\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         Generating Code...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Bin/x86/eduRendD.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\DirectXTK\lib\debug DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Bin/x86/eduRendD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Bin/x86/eduRendD.lib" /MACHINE:X86 /SAFESEH D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/Geometry.obj
+         D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/InputHandler.obj
+         D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/mesh.obj
+         D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/Main.obj
+         D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/mat.obj
+         D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Obj/x86/Debug/vec.obj
+     1>Geometry.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>DirectXTK.lib(pch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(pch.obj)' or at 'D:\Skola\Spelutveckling\3d\rendering\renderingAnton\Bin\x86\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(WICTextureLoader.obj)' or at 'D:\Skola\Spelutveckling\3d\rendering\renderingAnton\Bin\x86\directxtk.pdb'; linking object as if no debug info
+         Template.vcxproj -> D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\../Bin/x86/eduRendD.exe
+     1>Done Building Project "D:\Skola\Spelutveckling\3d\rendering\renderingAnton\source\Template.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.29

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5a019eb5-8829-4938-a79d-34e625c72da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vec">
+      <UniqueIdentifier>{2e89b4d6-ee0e-4dc7-92e2-98d88d997a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\aux">
+      <UniqueIdentifier>{85148265-465d-4c10-8d2a-1750eb855ccc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vec\mat.cpp">
+      <Filter>Source Files\vec</Filter>
+    </ClCompile>
+    <ClCompile Include="vec\vec.cpp">
+      <Filter>Source Files\vec</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\aux</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec\mat.h">
+      <Filter>Source Files\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="vec\math.h">
+      <Filter>Source Files\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="vec\vec.h">
+      <Filter>Source Files\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="drawcall.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBuffers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parseutil.h">
+      <Filter>Source Files\aux</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Source Files\aux</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\Shaders\DrawTri.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Bin\Shaders\DrawTri.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

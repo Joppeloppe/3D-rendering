@@ -1,0 +1,1 @@
+Important: all included assets are free for personal and educational use only.
